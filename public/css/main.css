@@ -1,0 +1,13 @@
+/* BASE */
+@import 'base/normalize.css';
+@import 'base/core.css';
+@import 'base/fonts.css';
+@import 'base/shapes.css';
+@import 'base/columns.css';
+
+/* COMPONENTS */
+@import 'components/presentation.css';
+@import 'components/experiece.css';
+@import 'components/header.css';
+@import 'components/schools.css';
+@import 'components/card.css';

@@ -1,0 +1,56 @@
+.presentation {
+  transition: visibility 500ms ease-out, height 500ms ease-out;
+  visibility: visible;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 1px);
+  position: relative;
+  width: 100%;
+}
+
+.presentation a {
+  color: #000;
+}
+
+.presentation.scroll-on {
+  visibility: hidden;
+  height: 0;
+}
+
+.presentation > .presentation__copy-text > h5 {
+  font-weight: 100;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+
+.presentation .presentation__content__intro {
+  color: #ED4337;
+  font-family: 'Rammetto One', cursive;
+  font-size: 4em;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  opacity: 0;
+  text-shadow: 4px 4px 12px rgba(237, 67, 55, 0.53);
+  transition: visibility 0s linear 300ms, opacity 300ms;
+  text-align: center;
+  width: 580px;
+}
+
+.presentation .presentation__content__intro.lazy-load {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 500ms;
+}
+
+.presentation .presentation__content__intro.lazy-load.scroll-on {
+  opacity: 0;
+  visibility: hidden;
+}

@@ -1,0 +1,12 @@
+.col-2 {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.full {
+  margin: 2rem 0rem;
+}

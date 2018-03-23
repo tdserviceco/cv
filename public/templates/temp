@@ -1,0 +1,129 @@
+<div class="cards">
+  <div id="2017-ongoing" class="card">
+    <div class="head">
+      <div class="date">
+        <span>2017-ongoing</span>
+      </div>
+      <h2>
+        <a href="http://www.hackyourfuture.net/" target="_blank">Hackyourfuture <span class="cool-breaker">|</span> Volentary teacher/</a>
+      </h2>
+    </div>
+    <div class="body">
+      <p>
+      Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum.
+      </p>
+    </div>
+  </div>
+  <div id="2017-2018" class="card">
+    <div class="head">
+      <div class="date">
+        <span>2017-2018</span>
+      </div>
+      <h2>
+        <a href="http://040.se" target="_blank">040Internet <span class="cool-breaker">|</span> Developer</a>
+      </h2>
+    </div>
+    <div class="body">
+      <p>
+      Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum.
+      </p>
+    </div>
+  </div>
+  <div id="2015-ongoing" class="card">
+    <div class="head">
+      <div class="date">
+        <span>2015-ongoing</span>
+      </div>
+      <h2>
+        <a href="http://foocafe.org/malmoe" target="_blank">Foocafe Malmoe <span class="cool-breaker">|</span> Volentary teacher</a>
+      </h2>
+    </div>
+    <div class="body">
+      <p>
+      Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum.
+      </p>
+    </div>
+  </div>
+  <div id="2015-2017" class="card">
+    <div class="head">
+      <div class="date">
+        <span>2015-2017</span>
+      </div>
+      <h2>
+        <a href="http://resultify.se" target="_blank">IQQ (Now Resultify)</a>
+      </h2>
+    </div>
+    <div class="body">
+      <p>
+      Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum.
+      </p>
+    </div>
+  </div>
+  <div id="2015-2015" class="card">
+    <div class="head">
+      <div class="date">
+        <span>2015-2015</span>
+      </div>
+      <h2>
+        <a href="http://resultify.se" target="_blank">IQQ <span class="cool-breaker">|</span> Intern</a>
+      </h2>
+    </div>
+    <div class="body">
+      <p>
+      Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum.
+      </p>
+    </div>
+  </div>
+  <div id="2013-2014" class="card">
+    <div class="head">
+      <div class="date">
+        <span>2013-2014</span>
+      </div>
+      <h2>Lunbystad <span class="cool-breaker">|</span> Web app</h2>
+    </div>
+    <div class="body">
+      <p>
+      Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum.
+      </p>
+    </div>
+  </div>
+  <div id="2013-2014" class="card">
+    <div class="head">
+      <div class="date">
+        <span>2013-2014</span>
+      </div>
+      <h2>CHILLZONE <span class="cool-breaker">|</span> WordPress teacher</h2>
+    </div>
+    <div class="body">
+      <p>
+      Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum.
+      </p>
+    </div>
+  </div>
+  <div id="2012-2012" class="card">
+    <div class="head">
+      <div class="date">
+        <span>2012-2012</span>
+      </div>
+      <h2>University of Skövde <span class="cool-breaker">|</span> Oratory course</h2>
+    </div>
+    <div class="body">
+      <p>
+      Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum.
+      </p>
+    </div>
+  </div>
+  <div id="2010-2012" class="card">
+    <div class="head">
+      <div class="date">
+        <span>2010-2012</span>
+      </div>
+      <h2>KYH <span class="cool-breaker">|</span> Agile Web Development</h2>
+    </div>
+    <div class="body">
+      <p>
+      Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum.
+      </p>
+    </div>
+  </div>
+</div>

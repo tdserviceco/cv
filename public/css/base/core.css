@@ -1,0 +1,26 @@
+:root {
+  font-family: 'Quicksand', sans-serif;
+}
+
+html,body {
+  padding: 0;
+  margin: 0;
+}
+
+.center-large {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.headline {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.headline:before {
+  content: '[';
+}
+
+.headline:after {
+  content: ']';
+}

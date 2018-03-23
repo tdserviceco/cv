@@ -1,0 +1,55 @@
+.card {
+  border: 1px solid #e3e3e3;
+  color: #000;
+  text-decoration: none;
+  transition: all 250ms ease-in;
+}
+
+.card:hover:nth-child(even),
+.card:focus {
+  box-shadow: 2px 2px #e3e3e3;
+  color: rgba(0,0,0,0.5);
+}
+
+
+.card:hover:nth-child(odd),
+.card:focus {
+  box-shadow: -2px 2px #e3e3e3;
+  color: rgba(0,0,0,0.5);
+}
+
+.card .card__top {
+  text-align: center;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #e3e3e3;
+}
+.card .content {
+  padding: 10px;
+  
+}
+
+
+
+.date, .title {
+  padding: 10px 0;
+  display: inline-block;
+}
+
+
+.date:before {
+  content: '[';
+  margin-left: 5px;
+}
+.date:after {
+  content: '|';
+  margin-left: 10px;
+}
+
+.title:before {
+  content: '|';
+  margin-right: 10px;
+}
+.title:after {
+  content: ']';
+  margin-right: 5px;
+}

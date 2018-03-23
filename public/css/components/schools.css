@@ -1,0 +1,4 @@
+.schools .card:hover,
+.schools .card:focus {
+  color: #000 !important;
+} 
