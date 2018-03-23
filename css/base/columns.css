@@ -1,12 +1,24 @@
 .col-2 {
-  padding: 10px;
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
 
-.full {
-  margin: 2rem 0rem;
+.full,
+.col-2 {
+  margin: 10px;
+}
+
+@media(min-width: 920px) {
+  .col-2 {
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  }
+
+  .full, 
+  .col-2 {
+    margin: 0 auto;
+  }
 }

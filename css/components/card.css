@@ -6,14 +6,14 @@
 }
 
 .card:hover:nth-child(even),
-.card:focus {
+.card:focus:nth-child(even) {
   box-shadow: 2px 2px #e3e3e3;
   color: rgba(0,0,0,0.5);
 }
 
 
 .card:hover:nth-child(odd),
-.card:focus {
+.card:focus:nth-child(odd) {
   box-shadow: -2px 2px #e3e3e3;
   color: rgba(0,0,0,0.5);
 }
@@ -25,10 +25,25 @@
 }
 .card .content {
   padding: 10px;
-  
+}
+
+.card:hover:nth-child(even).no-link,
+.card:focus:nth-child(even).no-link,
+.card:hover:nth-child(odd).no-link,
+.card:focus:nth-child(odd).no-link {
+  box-shadow: 2px 2px #e3e3e3;
+  color: rgba(0,0,0,1);
 }
 
 
+.card.full .italic {
+  font-style: italic;
+}
+
+.card.full img {
+  width: 100%;
+  object-fit: cover;
+}
 
 .date, .title {
   padding: 10px 0;

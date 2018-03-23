@@ -31,17 +31,17 @@
 .presentation .presentation__content__intro {
   color: #ED4337;
   font-family: 'Rammetto One', cursive;
-  font-size: 4em;
+  font-size: 4rem;
   left: 50%;
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
   visibility: hidden;
   opacity: 0;
-  text-shadow: 4px 4px 12px rgba(237, 67, 55, 0.53);
+  text-shadow: 4px 4px 12px rgba(0,0,0,1);
   transition: visibility 0s linear 300ms, opacity 300ms;
   text-align: center;
-  width: 580px;
+  width: 360px;
 }
 
 .presentation .presentation__content__intro.lazy-load {
@@ -53,4 +53,10 @@
 .presentation .presentation__content__intro.lazy-load.scroll-on {
   opacity: 0;
   visibility: hidden;
+}
+
+@media (min-width: 920px) {
+  .presentation__content__intro {
+    width: 580px;
+  }
 }
