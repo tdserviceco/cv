@@ -31,7 +31,7 @@
 .presentation .presentation__content__intro {
   color: #ED4337;
   font-family: 'Rammetto One', cursive;
-  font-size: 4rem;
+  font-size: 2.5rem;
   left: 50%;
   position: absolute;
   top: 50%;
@@ -41,7 +41,7 @@
   text-shadow: 4px 4px 12px rgba(0,0,0,1);
   transition: visibility 0s linear 300ms, opacity 300ms;
   text-align: center;
-  width: 360px;
+  width: 290px;
 }
 
 .presentation .presentation__content__intro.lazy-load {
@@ -55,8 +55,17 @@
   visibility: hidden;
 }
 
+
+@media (min-width: 520px) {
+  .presentation .presentation__content__intro {
+    width: 360px;
+    font-size: 4rem;
+  }
+}
+
 @media (min-width: 920px) {
-  .presentation__content__intro {
+  .presentation .presentation__content__intro {
+    font-size: 4rem;
     width: 580px;
   }
 }

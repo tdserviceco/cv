@@ -4,7 +4,7 @@ const start = {
   },
 
   lazy_load: function() {
-    $('.presentation__content__intro').addClass('lazy-load');
+    jQuery('.presentation__content__intro').addClass('lazy-load');
   }
 }
 
