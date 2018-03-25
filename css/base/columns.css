@@ -17,8 +17,11 @@
   grid-template-rows: 50% 50%;
   }
 
-  .full, 
   .col-2 {
     margin: 0 auto;
   }
+
+  .full {
+    margin: 10px auto;
+  }  
 }
